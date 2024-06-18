@@ -878,13 +878,15 @@ button:hover .index {
   text-align: center;
 }
 .portfolio-image img {
-  height: 400px;
+  height: 350px;
   width: 100%;
   position: relative;
 }
 .portfolio-image {
-  height: 400px;
+  height: 350px;
   width: 40%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .portfolio-image img::before {
   content: "";
